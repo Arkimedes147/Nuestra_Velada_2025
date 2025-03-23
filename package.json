@@ -1,0 +1,26 @@
+{
+  "name": "velada-2025-registro",
+  "version": "1.0.0",
+  "description": "Sistema de registro para Nuestra Velada 2025",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "sequelize-cli db:migrate"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.6.5",
+    "helmet": "^4.6.0",
+    "express-rate-limit": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sequelize-cli": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
